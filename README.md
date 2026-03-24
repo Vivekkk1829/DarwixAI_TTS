@@ -171,7 +171,7 @@ Intensity = Top Score - Second Top Score
 
 ##  Limitations
 
-* `pyttsx3` has limited pitch control (system dependent)
+* pyttsx3 provides limited and system-dependent control over pitch and does not support SSML, which restricts advanced features like phoneme-level control, prosody tuning, and expressive speech synthesis.
 * Lower voice realism compared to modern APIs (e.g., ElevenLabs)
 * No speaker consistency or advanced prosody control
 
@@ -181,6 +181,7 @@ Intensity = Top Score - Second Top Score
 
 * Integrate ElevenLabs / Google TTS
 * Add real-time streaming
+* Intgerate SSML
 * Improve contextual emotion detection
 * Enhance UI with animations
 
