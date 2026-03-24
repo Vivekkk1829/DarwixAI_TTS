@@ -2,8 +2,7 @@ from fastapi import FastAPI, Request, Form
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.templating import Jinja2Templates
 
-from core import process_text   # ✅ reuse your code
-
+from core import process_text  
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
