@@ -87,6 +87,11 @@ j-hartmann/emotion-english-distilroberta-base
 ```
 
 This model outputs a probability distribution over emotions.
+and this  model is built upon Roberta model and this is 
+We used DistilRoBERTa instead of RoBERTa because it’s lighter, faster, and gives almost similar accuracy, which is ideal for real-time inference
+~40% smaller
+~60% faster
+and retain ~95% perfomance
 
 ---
 
@@ -157,7 +162,7 @@ Voice parameters are dynamically adjusted using intensity:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Integrate ElevenLabs / Google TTS for better voice quality
 * Add real-time streaming audio
