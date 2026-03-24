@@ -1,6 +1,6 @@
 # 🎙 Emotion-Aware Text-to-Speech System
 
-## 📌 Project Overview
+##  Project Overview
 
 This project converts input text into speech while dynamically adapting the voice based on the detected emotion and its intensity.
 
@@ -8,7 +8,7 @@ It uses a transformer-based emotion classification model to analyze text and the
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Emotion detection using a pretrained transformer model
 * Intensity calculation based on probability distribution
@@ -18,7 +18,7 @@ It uses a transformer-based emotion classification model to analyze text and the
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * Python
 * FastAPI (backend)
@@ -27,7 +27,7 @@ It uses a transformer-based emotion classification model to analyze text and the
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -63,7 +63,7 @@ http://127.0.0.1:8000
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -76,7 +76,7 @@ project/
 
 ---
 
-## 🧠 Design Choices
+##  Design Choices
 
 ### 1. Emotion Detection
 
@@ -149,7 +149,7 @@ Voice parameters are dynamically adjusted using intensity:
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * pyttsx3 has limited pitch control (system dependent)
 * Voice realism is lower compared to modern APIs (e.g., ElevenLabs)
@@ -166,7 +166,7 @@ Voice parameters are dynamically adjusted using intensity:
 
 ---
 
-## 📌 Example
+##  Example
 
 Input:
 
@@ -182,6 +182,6 @@ Output:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Vivek K
